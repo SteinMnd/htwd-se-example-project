@@ -9,6 +9,7 @@ Vorname Nachname <email>
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
 
+[#Syntax]
 == Kennenlernen der Syntax
 Über die Aufgaben wird das Dokument Stück für Stück aufgebaut und angepasst.
 
@@ -29,6 +30,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 .. 2b
 . 3
 
+[#Tabelle1]
 === Tabellen und Textformatierung
 
 [%header,cols=3*]
@@ -61,6 +63,7 @@ Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und prak
 
 **S**__o__ftw__a__r__e__ **E**ng__i__n__ee__``ring``
 
+[#Quellcode]
 === Quellcode
 
 [source,c]
@@ -75,8 +78,17 @@ int main(int argc, char* argv[])
 }
 
 ----
-
+[#Bilder]
 === Bilder
 
 image::Bildschirmfoto 2023-10-12 um 13.54.02.png[]
+
+=== Verweise
+
+<<Syntax>> +
+<<Tabelle1>> +
+<<Quellcode>> +
+<<Bilder>>
+
+
 
