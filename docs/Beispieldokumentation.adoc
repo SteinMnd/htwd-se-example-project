@@ -4,7 +4,7 @@ Vorname Nachname <email>
 :toc: 
 :toc-title: Inhaltsverzeichnis
 :source-highlighter: highlight.js
-// Platzhalter für weitere Dokumenten-Attribute 
+:imagesdir: images
 
 == Einführung
 Dieses Dokument dient im Praktikum als Spielwiese für das Kennenlernen und praktische Üben der Syntax von AsciiDoc.
@@ -75,3 +75,8 @@ int main(int argc, char* argv[])
 }
 
 ----
+
+=== Bilder
+
+image::Bildschirmfoto 2023-10-12 um 13.54.02.png[]
+
